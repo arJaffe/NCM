@@ -16,14 +16,20 @@ To run the orthogonal newton correction method:
 where 
 
 Input:    T - A cubic real and symmetric tensor
+
           max_itr - maximum number of iterations until termination
+	  
           delta - convergence threshold
+	  
           x_init(opt) - initial point
 
 DEFAULT:
 	   if nargin<4 x_init is chosen randomly over the unit sphere
 
 Output:   x - output eigenvector
+
           ctr - number of iterations till convergence
+	  
           run_time - time till convergence
+	  
           convergence (1- converged)
