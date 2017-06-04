@@ -1,6 +1,6 @@
 # A matlab implementation of the Newton correction methods
 
-# A matlab implementation of the Newton correction methods described in
+A matlab implementation of the Newton correction methods described in
 A. Jaffe, R. Weiss and Boaz Nadler
 Newton correction methods for computing real eigenpairs of symmetric tensors (2017)
 The package includes a main script and tensor examples to generate Figure 6 (right).
